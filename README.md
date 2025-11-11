@@ -1,32 +1,44 @@
-# AI Game 
+# AU_RPG_TEXT — Terminal-Based Undertale AU RPG (Python)
 
-The **Ai Game** is an interactive program where users can play a game! That's right, this is a game made by Ai only 
+**AU_RPG_TEXT** is a text-only, turn-based RPG played entirely in the terminal.  
+You choose from several Undertale AU character variants and explore a branching narrative with multiple endings, tactical combat, and an inventory system.  
 
----
-
-## Features  
-- A working functional game 
-- Simple, text-based interface  
-- Different endings 
-- Educational tool for learning 
-- Story
+This game runs in a single `.py` file and saves progress to JSON, making it portable and easy to modify.
 
 ---
 
-## Installation  
+## 🎮 Features
 
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/Eclipse0-Gum/AI-Game.git
-   cd Ai-Game
+- **Character Selection**  
+  Choose from several AU characters (Sans / Chara variants) each with unique stat profiles.
 
+- **Branching Story Path**  
+  Navigate scenes, make narrative decisions, unlock flags, and influence which ending you get.
 
+- **Turn-Based Combat System**  
+  Strategy matters — attacks use stats, agility influences hit chance, and magic damage behaves differently.
 
-![Status](https://img.shields.io/badge/status-working-brightgreen)
-![Python](https://img.shields.io/badge/made%20with-Python-blue)
+- **Inventory & Items**  
+  Use healing items, buffs, or escape tools. Some items provide **permanent stat upgrades**.
 
-## Flowchart 
+- **Save & Load Support**  
+  Restart from where you left off — progress is stored in `savegame_text.json`.
 
-A flow chart of the process:
+- **Multiple Endings**  
+  Your choices change your outcome (peace, victory, sacrifice, flee, and more).
 
-![Flowchart of GPA-Calculator](Flowchart_AiGame.png)
+---
+
+## 🛠 Requirements
+
+- **Python 3.7+**
+- No external libraries required (only built-in Python modules are used)
+
+---
+
+## ▶️ How to Run
+
+Open a terminal in the directory containing the file and run:
+
+```bash
+python3 au_rpg_text.py
