@@ -41,4 +41,4 @@ This game runs in a single `.py` file and saves progress to JSON, making it port
 Open a terminal in the directory containing the file and run:
 
 ```bash
-python3 au_rpg_text.py
+python3 Ai_Game.py
